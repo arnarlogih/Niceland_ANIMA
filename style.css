@@ -119,11 +119,9 @@ section {
     margin: 20px;
     background-image: linear-gradient(#F5AC95, #E81B0D)
 }
-
-.colorbox2 {
-    float: right;
-    width: 50px;
-    height: 800px;
-    margin: 10px;
-    background-image: linear-gradient(#F5AC95, #E81B0D)
+footer p{
+   text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    color: orangered;
 }

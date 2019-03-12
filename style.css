@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+p {
+    color: #495761;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+}
+
+.salmonImage {
+    background-image: url(images/Groatay1-1.png);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+   display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.salmonImage h1{
+    color: white;
+    font-size: 1.4em;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about p {
+    text-align: justify;
+}
+
+.description{
+      width: 500px;
+    text-align: justify;
+}
+
+.Logo {
+    text-align: center;
+    padding-bottom: 20px;
+    width: 150px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 50px 0;
+
+}
+
+.facebook,
+.instagram {
+    height: 70px;
+    width: auto;
+    border: 2px solid black;
+}
+
+
+.box1 {
+    margin: 3em;
+    padding: 3em;
+}
+
+.colorbox1 {
+    float: right;
+    width: 50px;
+    height: 1800px;
+    margin: 10px;
+    background-image: linear-gradient(#F5AC95, #E81B0D)
+}
+
+.colorbox2 {
+    float: right;
+    width: 50px;
+    height: 800px;
+    margin: 10px;
+    background-image: linear-gradient(#F5AC95, #E81B0D)
+}

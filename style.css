@@ -1,17 +1,16 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-
-body {
-    width: 100%;
-}
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
 
 * {
     margin: 0;
     padding: 0;
 }
+body {
+    width: 100%;
+}
 
-h1,
-h2,
-p {
+
+h2, p {
     color: #495761;
     font-family: 'Open Sans', sans-serif;
 }
@@ -19,21 +18,43 @@ p {
 h1 {
     font-size: 3em;
     font-weight: 600;
+    color: #495761;
+    font-family: 'Quicksand', sans-serif;
 }
+.headline{
+    padding: 20px;
+    letter-spacing: 2px;
+}
+
 
 .salmonImage {
     background-image: url(images/Groatay1-1.png);
-    height: 400px;
+    height: 50vh;
     background-position: center;
     background-size: cover;
-   display: flex;
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
 }
 .salmonImage h1{
     color: white;
     font-size: 1.4em;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
+}
+.downArrow{
+    padding-top: 50px;
+}
+@keyframes jump {
+  0%   {transform: translate3d(0,0,0);}
+  40%  {transform: translate3d(0,50%,0) ;}
+  100% {transform: translate3d(0,0,0) ;}
+}
+.jump {
+  transform-origin: 20% 20%;
+  animation: jump 2s linear alternate infinite;
 }
 
 .wrapper {
@@ -44,6 +65,8 @@ h1 {
 
 .about {
     width: 500px;
+    height: 50vh;
+    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -77,17 +100,17 @@ section {
     border: 2px solid black;
 }
 
-
 .box1 {
     margin: 3em;
     padding: 3em;
 }
 
 .colorbox1 {
-    float: right;
-    width: 50px;
-    height: 1800px;
-    margin: 10px;
+    right: 0;
+    width: 30px;
+    position: absolute;
+    height: 100%;
+    margin: 20px;
     background-image: linear-gradient(#F5AC95, #E81B0D)
 }
 

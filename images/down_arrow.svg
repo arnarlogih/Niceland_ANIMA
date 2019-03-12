@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53 (72520) - https://sketchapp.com -->
+    <title>bx-down-arrow-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Copy" transform="translate(-951.000000, -999.000000)" fill="#F14943" fill-rule="nonzero">
+            <g id="bx-down-arrow-circle" transform="translate(951.000000, 999.000000)">
+                <path d="M15,0 C6.729,0 0,6.729 0,15 C0,23.271 6.729,30 15,30 C23.271,30 30,23.271 30,15 C30,6.729 23.271,0 15,0 Z M15,27 C8.3835,27 3,21.6165 3,15 C3,8.3835 8.3835,3 15,3 C21.6165,3 27,8.3835 27,15 C27,21.6165 21.6165,27 15,27 Z" id="Shape"></path>
+                <polygon id="Path" points="16.5 9 13.5 9 13.5 15 9 15 15 21 21 15 16.5 15"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

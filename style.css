@@ -20,6 +20,8 @@ h1 {
     font-weight: 600;
     color: #495761;
     font-family: 'Quicksand', sans-serif;
+    padding-bottom: 30px;
+
 }
 .headline{
     text-align: center;
@@ -79,6 +81,8 @@ h1 {
 
 .description{
       width: 500px;
+}
+.description p{
     text-align: justify;
 }
 
@@ -106,11 +110,6 @@ section {
     border: 2px solid black;
 }
 
-.box1 {
-    margin: 3em;
-    padding: 3em;
-}
-
 .colorbox1 {
     right: 0;
     width: 30px;
@@ -119,13 +118,17 @@ section {
     margin: 20px;
     background-image: linear-gradient(#F5AC95, #E81B0D)
 }
-footer p{
-   text-align: center;
-    margin: 0 auto;
-    padding: 5px;
-    color: orangered;
+
+footer{
+    background-color: lightgray;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
 }
 
-@media screen and (max-width:300px){
-
+.SoMe{
+    height: 30px;
+    width: 30px;
+    margin: 10px;
 }
+

@@ -22,10 +22,11 @@ h1 {
     font-family: 'Quicksand', sans-serif;
 }
 .headline{
-    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px;
     letter-spacing: 2px;
 }
-
 
 .salmonImage {
     background-image: url(images/Groatay1-1.png);
@@ -80,11 +81,11 @@ h1 {
       width: 500px;
     text-align: justify;
 }
-.description2{
-    margin:  20px;
 
-      width: 500px;
-    text-align: justify;
+.diagram{
+    padding: 30px;
+    height: 400px;
+    float: right;
 }
 
 .Logo {
@@ -96,7 +97,6 @@ h1 {
 
 section {
     padding: 50px 0;
-
 }
 
 .facebook,
@@ -124,4 +124,8 @@ footer p{
     margin: 0 auto;
     padding: 5px;
     color: orangered;
+}
+
+@media screen and (max-width:300px){
+
 }

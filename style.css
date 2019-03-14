@@ -81,6 +81,7 @@ h1 {
 }
 
 .description{
+    margin-top: 100px;
       width: 600px;
 }
 .description p{
@@ -110,9 +111,7 @@ h1 {
     margin: 0 auto;
 }
 
-section {
-    padding: 50px 0;
-}
+
 
 .facebook,
 .instagram {
@@ -121,13 +120,11 @@ section {
     border: 2px solid black;
 }
 
-.colorbox1 {
-    right:0;
-    width: 10px;
-    position: absolute;
-    height: 100%;
-    margin: 20px;
-    background-image: linear-gradient(#F5AC95, #E81B0D)
+main{
+    background-image: url(images/timeline.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    margin: 100px 0;
 }
 
 footer{
@@ -143,3 +140,44 @@ footer{
     margin: 10px;
 }
 
+.why::before {
+    content: url(images/point.png);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 -30px;
+    display: inline-block;
+}
+.diet, .effects{
+    text-align: right;
+}
+.diet::after{
+    content: url(images/point-2.png);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.coloring::before {
+    content: url(images/point-3.png);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 -30px;
+    display: inline-block;
+}
+
+.effects::after{
+    content: url(images/point-4.png);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.wild::before {
+    content: url(images/point-5.png);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 -30px;
+    display: inline-block;
+}

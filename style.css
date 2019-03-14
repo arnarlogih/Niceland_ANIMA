@@ -48,7 +48,8 @@ h1 {
     text-transform: uppercase;
 }
 .downArrow{
-    padding-top: 50px;
+    padding-top: 100px;
+
 }
 @keyframes jump {
   0%   {transform: translate3d(0,0,0);}
@@ -67,7 +68,7 @@ h1 {
 }
 
 .about {
-    width: 500px;
+    width: 600px;
     height: 50vh;
     padding: 0;
     display: flex;
@@ -80,9 +81,19 @@ h1 {
 }
 
 .description{
-      width: 500px;
+      width: 600px;
 }
 .description p{
+    text-align: justify;
+}
+
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 40px;
+    width: 1000px;
+}
+.content p{
     text-align: justify;
 }
 
@@ -111,8 +122,8 @@ section {
 }
 
 .colorbox1 {
-    right: 0;
-    width: 30px;
+    right:0;
+    width: 10px;
     position: absolute;
     height: 100%;
     margin: 20px;

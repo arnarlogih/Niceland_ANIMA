@@ -87,12 +87,22 @@ h1 {
 
 .conclusion{
     width: 600px;
-   text-align: justify;
     padding-bottom: 100px;
+}
+.conclusion h2{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+.conclusion p{
+     text-align: justify;
 }
 .description{
     margin-top: 100px;
       width: 600px;
+}
+.description h2{
+    font-size: 2em;
+    padding-bottom: 10px;
 }
 .description p{
     text-align: justify;
@@ -101,6 +111,11 @@ h1 {
       width: 600px;
     margin-bottom: 100px;
 }
+.signup h2{
+    font-size: 2em;
+    padding-bottom: 10px;
+}
+
 
 .content{
     display: grid;

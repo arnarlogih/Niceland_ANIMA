@@ -11,7 +11,7 @@ body {
 }
 
 
-h2, p {
+h2, p, label {
     color: #495761;
     font-family: 'Open Sans', sans-serif;
 }
@@ -110,7 +110,7 @@ h1 {
 header .signup{
     margin-bottom: 0;
 }
-header .signup h2{
+header .signup h2, header label{
   color: white;
     font-size: 1em;
     text-align: center;
@@ -184,7 +184,7 @@ footer{
 }
 
 .why::before {
-    content: url(images/point.png);
+    content: url(images/point-1.svg);
     position: absolute;
     vertical-align: middle;
     margin: 0 -29px;
@@ -201,31 +201,31 @@ footer{
     text-align: right;
 }
 .diet::after{
-    content: url(images/point-2.png);
+    content: url(images/point-2.svg);
     position: absolute;
     vertical-align: middle;
-    margin: 0 10px;
+    margin: 0 11px;
     display: inline-block;
 }
 
 .coloring::before {
-    content: url(images/point-3.png);
+    content: url(images/point-3.svg);
     position: absolute;
     vertical-align: middle;
-    margin: 0 -30px;
+    margin: 0 -29px;
     display: inline-block;
 }
 
 .effects::after{
-    content: url(images/point-4.png);
+    content: url(images/point-4.svg);
     position: absolute;
     vertical-align: middle;
-    margin: 0 10px;
+    margin: 0 11px;
     display: inline-block;
 }
 
 .wild::before {
-    content: url(images/point-5.png);
+    content: url(images/point-5.svg);
     position: absolute;
     vertical-align: middle;
     margin: 0 -29px;
@@ -266,3 +266,8 @@ button{
 }
 
 
+input[type=checkbox]{
+
+  margin: 0 10px;
+
+}

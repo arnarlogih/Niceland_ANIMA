@@ -26,8 +26,6 @@ h1 {
 }
 .headline{
     text-align: center;
-    margin: 10px;
-    padding: 5px;
     letter-spacing: 2px;
 }
 
@@ -44,13 +42,15 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
+
 .salmonImage h1{
     color: white;
-    font-size: 1.4em;
+    font-size: 2em;
     font-family: 'Quicksand', sans-serif;
     text-transform: uppercase;
+    margin-bottom: 1em;
+
 }
 .downArrow{
     padding-top: 100px;
@@ -107,10 +107,22 @@ h1 {
 .description p{
     text-align: justify;
 }
+header .signup{
+    margin-bottom: 0;
+}
+header .signup h2{
+  color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 0em;
+
+}
 .signup{
       width: 600px;
     margin-bottom: 100px;
 }
+
+
 .signup h2{
     font-size: 2em;
     padding-bottom: 20px;
@@ -175,10 +187,16 @@ footer{
     content: url(images/point.png);
     position: absolute;
     vertical-align: middle;
-    margin: 0 -30px;
+    margin: 0 -29px;
     display: inline-block;
-
 }
+.top{
+    margin-top: -10px;
+}
+.bottom{
+    padding-top: 20px;
+}
+
 .diet, .effects{
     text-align: right;
 }
@@ -210,29 +228,27 @@ footer{
     content: url(images/point-5.png);
     position: absolute;
     vertical-align: middle;
-    margin: 0 -30px;
+    margin: 0 -29px;
     display: inline-block;
 }
 input[type=text]{
     width: 250px;
     height: 40px;
     padding: 0 10px;
-    border: solid #979797;
+    border: solid #cccccc80;
     border-width: 1px;
     border-radius: 3px;
-    background-color: #d8d8d8;
-    opacity: .5;
+    background-color: #efefef;
     margin: 10px;
 }
 input[type=Email]{
     width: 370px;
     height: 40px;
     padding: 0 10px;
-    border: solid #979797;
+    border: solid #cccccc80;
     border-width: 1px;
     border-radius: 3px;
-    background-color: #d8d8d8;
-    opacity: .5;
+    background-color: #efefef;
     margin: 10px;
 }
 

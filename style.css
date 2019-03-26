@@ -27,11 +27,9 @@ h1 {
 .headline{
     text-align: center;
     letter-spacing: 2px;
-}
-
-.headline h1{
     font-size: 4em;
 }
+
 
 .salmonImage {
     background-image: url(images/Groatay1-1.png);
@@ -73,6 +71,7 @@ h1 {
 }
 
 .about {
+    margin: 3em;
     width: 600px;
     height: 50vh;
     padding: 0;
@@ -86,6 +85,7 @@ h1 {
 }
 
 .conclusion{
+    margin: 0 3em;
     width: 600px;
     padding-bottom: 100px;
 }
@@ -97,6 +97,7 @@ h1 {
      text-align: justify;
 }
 .description{
+    margin: 0 3em;
     margin-top: 100px;
       width: 600px;
 }
@@ -118,7 +119,7 @@ header .signup h2, header label{
 
 }
 .signup{
-      width: 600px;
+    width: 600px;
     margin-bottom: 100px;
 }
 
@@ -140,11 +141,6 @@ header .signup h2, header label{
     text-align: justify;
 }
 
-.diagram{
-    padding: 30px;
-    height: 400px;
-    float: right;
-}
 
 .Logo {
     text-align: center;
@@ -152,7 +148,6 @@ header .signup h2, header label{
     width: 150px;
     margin: 0 auto;
 }
-
 
 
 .facebook,
@@ -167,7 +162,6 @@ main{
     background-repeat: no-repeat;
     background-position: top center;
     margin-top: 100px;
-
 }
 
 footer{
@@ -208,6 +202,14 @@ footer{
     display: inline-block;
 }
 
+.diet::before{
+    content: url(images/point-2.svg);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 -29px;
+    display: none;
+}
+
 .coloring::before {
     content: url(images/point-3.svg);
     position: absolute;
@@ -222,6 +224,14 @@ footer{
     vertical-align: middle;
     margin: 0 11px;
     display: inline-block;
+}
+
+.effects::before{
+    content: url(images/point-4.svg);
+    position: absolute;
+    vertical-align: middle;
+    margin: 0 -29px;
+    display: none;
 }
 
 .wild::before {
@@ -265,9 +275,65 @@ button{
     cursor: pointer;
 }
 
+.timeline{
+    display: none;
+}
+
 
 input[type=checkbox]{
 
   margin: 0 10px;
 
 }
+
+@media only screen and (max-width: 1000px) {
+    .content{
+        display: block;
+        margin: 3em;
+    }
+    .diet::after, .effects::after{
+        display: none;
+    }
+
+     .diet::before, .effects::before{
+        display: inline-block;
+    }
+    .diet, .effects{
+        text-align: left;
+    }
+    .timeline{
+        display: block;
+        position: absolute;
+
+        top: 166vh;
+        left: 1.6em;
+    }
+    .timeline img{
+        height: 2150px;
+        width: 5px;
+    }
+.signup{
+    width: 300px;}
+
+    input[type=Email]{
+        width: 250px;
+    }
+    .salmonImage h1{
+        font-size: 20px;
+        padding-top: 20px;
+        display: none;
+    }
+
+    .headline{
+        padding-bottom: 0;
+    }
+
+    main{
+    z-index: 999;
+    background-image: none;
+    background-position: top left;
+    margin-left: 0px;
+}
+
+}
+

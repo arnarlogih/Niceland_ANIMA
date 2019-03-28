@@ -29,7 +29,10 @@ h1 {
     letter-spacing: 2px;
     font-size: 4em;
 }
-
+.video{
+    border: 2px solid black;
+    box-shadow: 10px 10px 40px;
+}
 
 .salmonImage {
     background-image: url(images/Groatay1-1.png);
@@ -51,7 +54,7 @@ h1 {
 
 }
 .downArrow{
-    padding-top: 100px;
+    padding-top: 80px;
 
 }
 @keyframes jump {
@@ -305,7 +308,7 @@ input[type=checkbox]{
         display: block;
         position: absolute;
 
-        top: 166vh;
+        top: 205vh;
         left: 1.6em;
     }
     .timeline img{

@@ -30,8 +30,9 @@ h1 {
     font-size: 4em;
 }
 .video{
-    border: 2px solid black;
-    box-shadow: 10px 10px 40px;
+    box-shadow: 10px 10px 42px 0px #00000025;
+
+
 }
 
 .salmonImage {
